@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Noto+Sans+JP:wght@300&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+
+    font-size: 1.5rem;
+    font-family: 'Abel', sans-serif;
+    
+}
+
+body{
+    margin: 15px auto 10px auto;
+    width: 30rem;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    background-color: white;
+    color: #101010;
+    background: linear-gradient(to right, 
+    black,grey);
+    box-shadow: 1px 1px 15px #e6e6e6;
+
+}
+
+section{
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+    background-color: white;
+    filter: brightness(95%);
+    
+}
+
+div{
+    background-color:black;
+    color: white;
+    width: 90px;
+    height: 90px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+p{text-align: right;font-size:250%;}
+
+h1{font-size:250%;}
+
+header{
+    width: 100%;
+    height: 100%;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #101010;
+}
+
+a:hover, a:focus{
+    text-decoration: none;
+    filter: brightness(150%);
+    transform: scale(1.2);
+}
+
+footer{
+    width: 100%;
+    height: 100%;
+    color:white;
+    background-color: #101010;
+}
+
+::selection{
+    color: gold;
+}

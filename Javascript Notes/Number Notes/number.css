@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Noto+Sans+JP:wght@300&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+
+    font-size: 1.5rem;
+    font-family: 'Abel', sans-serif;
+    
+}
+
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    gap:1rem;
+    background:linear-gradient(rgb(26, 26, 209),rgb(155, 10, 155));
+    color: whitesmoke;
+   
+
+}
+
+main{
+    height: 75vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-flow: column;
+    
+
+}
+
+h1{font-size:250%;}
+
+a{
+    color:bisque;
+}
+
+a:hover,a:focus{
+    text-decoration: none;
+    filter: brightness(150%);
+}
